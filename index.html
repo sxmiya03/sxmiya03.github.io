@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EcoCongo</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+  <h1>EcoCongo</h1>
+  <nav>
+    <a href="#home">Home</a> |
+    <a href="#about">About Pollution</a> |
+    <a href="#report">Report</a> |
+    <a href="#cleanup">Clean-ups</a> |
+    <a href="#tips">Tips</a>
+  </nav>
+</header>
+
+<section id="home">
+  <h2>Welcome to EcoCongo!</h2>
+  <p>We are trying to help our communities reduce pollution in Congo.</p>
+  <p><a href="#report">Report Pollution</a> | <a href="#cleanup">Join Clean-ups</a></p>
+</section>
+
+<section id="about">
+  <h2>About Pollution</h2>
+  <p>Pollution in Congo affects air, water, and land. We need to work together to make our communities cleaner.</p>
+</section>
+
+<section id="report">
+  <h2>Report Pollution</h2>
+<form id="pollutionForm">
+    Name: <input type="text" name="name"><br>
+    Location: <input type="text" name="location"><br>
+    Type: 
+    <select name="type">
+      <option value="air">Air</option>
+      <option value="water">Water</option>
+      <option value="land">Land</option>
+    </select><br>
+    Description: <textarea name="description"></textarea><br>
+    <button type="submit">Submit</button>
+  </form>
+</section>
+
+<section id="cleanup">
+  <h2>Community Clean-ups</h2>
+  <form id="cleanupForm">
+    Name: <input type="text" name="name"><br>
+    Age: <input type="number" name="age"><br>
+    Event: 
+    <select name="event">
+      <option value="river">River Clean-up</option>
+      <option value="street">Street Clean-up</option>
+      <option value="school">School Clean-up</option>
+    </select><br>
+    <button type="submit">Sign Up</button>
+  </form>
+</section>
+
+<section id="tips">
+  <h2>Tips to Reduce Pollution</h2>
+  <ul>
+    <li>Recycle plastic</li>
+    <li>Reduce waste</li>
+    <li>Participate in clean-ups</li>
+  </ul>
+</section>
+
+<footer>
+  <p>EcoCongo © 2025</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
